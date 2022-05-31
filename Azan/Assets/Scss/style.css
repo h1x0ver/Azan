@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-light {
+  color: white;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ms-1 {
+  margin-left: 10px;
+}
+
+.ms-2 {
+  margin-left: 20px;
+}
+
+.ms-3 {
+  margin-left: 30px;
+}
+
+.me-1 {
+  margin-right: 10px;
+}
+
+.me-2 {
+  margin-right: 20px;
+}
+
+.me-3 {
+  margin-right: 30px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.col-1 {
+  width: calc(100%/12*1);
+}
+
+.col-2 {
+  width: calc(100%/12*2);
+}
+
+.col-3 {
+  width: calc(100%/12*3);
+}
+
+.col-4 {
+  width: calc(100%/12*4);
+}
+
+.col-5 {
+  width: calc(100%/12*5);
+}
+
+.col-6 {
+  width: calc(100%/12*6);
+}
+
+.col-7 {
+  width: calc(100%/12*7);
+}
+
+.col-8 {
+  width: calc(100%/12*8);
+}
+
+.col-9 {
+  width: calc(100%/12*9);
+}
+
+.col-10 {
+  width: calc(100%/12*10);
+}
+
+.col-11 {
+  width: calc(100%/12*11);
+}
+
+.col-12 {
+  width: calc(100%/12*12);
+}
+
+.cards {
+  width: 1140px;
+}
+
+nav {
+  background-color: #0b2d41;
+  height: 80px;
+}
+
+nav .logo i {
+  font-size: 30px;
+}
+
+nav .text span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+nav .location span {
+  margin-left: 75px;
+}
+
+nav .location p {
+  font-size: 12px;
+}
+
+main .myForm form.dateForm .input input {
+  height: 30px;
+  width: 100%;
+}
+
+main .myForm form.dateForm .selectRegion select {
+  width: 100%;
+}
+
+main .myForm form.dateForm .button button {
+  color: white;
+  width: 100%;
+  height: 28px;
+  background-color: #28054b;
+}
+
+main .cards .card ul {
+  list-style: none;
+}
+
+main .cards .card ul li {
+  padding: 5px;
+  height: 33px;
+  border: 1px solid grey;
+}
+
+main .cards .card ul li.date {
+  height: 45px;
+  background-color: #d4cbcb;
+  font-size: 24px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
